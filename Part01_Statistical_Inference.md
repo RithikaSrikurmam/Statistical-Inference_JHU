@@ -72,7 +72,7 @@ sim_mns  %>%
   ggtitle("Distribution of simulated means")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](https://github.com/RithikaSrikurmam/Statistical-Inference_JHU/blob/main/unnamed-chunk-2-1.png)
 
 From the plot we can see that the distribution of the means is centered around the mean of our simulated distribution, that is **4.982365** (the black vertical line) which is very close to the theoretical mean 1/lambda = **5**
 
@@ -134,6 +134,6 @@ sim_mns %>%  mutate(z_score = (means - 1/lambda) / (1/lambda / sqrt(n))) %>%
    xlab("z-scores")
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](https://github.com/RithikaSrikurmam/Statistical-Inference_JHU/blob/main/unnamed-chunk-4-1.png)
 
 From the plot we see that the normalized distribution of sample means is approximately the same as the standard normal distribution as we can see comparing it to the density function, the black bell-shaped curve. Also, the mean is -0.02230626, very close to zero. This is consistent with what is stated in the Central Limit Theorem. 
