@@ -115,7 +115,7 @@ labs(x="dose(mg)", y= "teeth length ") +
 guides(fill=guide_legend(title="Supplement type"))
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-5](https://github.com/RithikaSrikurmam/Statistical-Inference_JHU/blob/main/unnamed-chunk-5-1.png)
 
 This multipanel plot emphasizes the relationship between teeth length and dose level for each supplement type. It appears to be a positive relationship for both supplement types. In other words, as the amount of supplement increases, so does teeth length.
 
@@ -132,7 +132,7 @@ labs(x="supplement type", y= "teeth length ") +
 guides(fill=guide_legend(title="Supplement type"))
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6](https://github.com/RithikaSrikurmam/Statistical-Inference_JHU/blob/main/unnamed-chunk-6-1.png)
 
 This second plot shows the relationship between supplement type and teeth length emphasizing direct comparison between supplement types. Here the relationship is much less clear. Orange juice OJ appears to be more effective at dosage levels 0.5 and 1. On the other hand, at dosage level 2 there doesn't appear to be any significative difference.
 
